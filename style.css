@@ -11,14 +11,14 @@ h1 {
   color: orange;
 }
 
-section {
+.flexible-container {
   display: flex;
 }
 
 .half-width {
   width: 50%;
   /* margin-left: 10%; */
-  padding: 5%;
+  padding: 8%;
 }
 
 .link-profile {
@@ -33,4 +33,39 @@ section {
 .top-banner {
   background-image: url(images/top-banner.png);
   background-repeat: no-repeat;
+}
+
+.dream-big {
+  background-image: url(images/dream-bg.png);
+  background-repeat: no-repeat;
+  background-position: right;
+}
+
+.experience-area {
+  background-image: url(images/exp-bg.png);
+  background-repeat: no-repeat;
+  background-position: left;
+}
+.experience-item {
+  width: 40%;
+  margin-left: 5%; 
+  /* margin-right: 5%;  */
+  box-shadow: 10px 10px 50px gray;
+  border-radius: 5px;
+}
+
+#full-stack-pro {
+  border-left: 10px solid;
+  border-image: linear-gradient(orange, tomato);
+  border-image-slice: 1;
+}
+
+#full-stack-baby {
+  border-left: 10px solid;
+  border-image: linear-gradient(blue, cyan) ;
+  border-image-slice: 1;
+}
+
+footer p {
+  text-align: center;
 }
