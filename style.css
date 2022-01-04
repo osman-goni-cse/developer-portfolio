@@ -1,5 +1,6 @@
 body {
   font-family: 'Poppins', sans-serif;
+  margin: 0;
 }
 
 h1 {
@@ -8,4 +9,28 @@ h1 {
 
 .my-name {
   color: orange;
+}
+
+section {
+  display: flex;
+}
+
+.half-width {
+  width: 50%;
+  /* margin-left: 10%; */
+  padding: 5%;
+}
+
+.link-profile {
+  text-decoration: none;
+  /* background-color: orangered; */
+  background-image: linear-gradient(orangered, tomato);
+  color: white;
+  padding: 10px 20px;
+  border-radius: 5px;
+}
+
+.top-banner {
+  background-image: url(images/top-banner.png);
+  background-repeat: no-repeat;
 }
